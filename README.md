@@ -57,7 +57,7 @@ pnpm build
 
 Ensure to have the following dependencies set up:
 
-- [rep-talkNPC v2](https://github.com/BahnMiFPS/rep-talkNPC)
+- ox_target
 - [QBCore Framework](https://github.com/qbcore-framework) or [ESX](https://github.com/esx-framework)
 
 ## Featured Products :star2:
