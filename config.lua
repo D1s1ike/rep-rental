@@ -3,24 +3,7 @@ Config.DriverLicense = {
     ['car'] = 'driver', -- car is the vehicle type, while driver is the player metadata
 }
 
-Config.Locations = {
-    {
-        ped = {
-            hash = 'u_f_m_miranda_02',
-            name = 'Carmella Rentheart',
-            position = "Escalera Employee",
-            color = "#FDE047",
-            startMSG = 'Hey, how may I help you today?',
-        },
-        coords = vector4(-324.28, -960.3, 30.08, 269.84),
-        spawnpoint = vector4(-321.19, -959.94, 31.06, 161.47),
-        type = 'vehicle',
-        blip = {
-            label = "Rental",
-            colour = 50,
-            sprite = 56,
-        },
-        vehicles = {
+local vehicles = {
             {
                 model = 'bmx',
                 money = 50,
@@ -74,8 +57,45 @@ Config.Locations = {
                 money = 600,
                 type = 'car',
                 img = 'nui://rep-rental/web/build/assets/felon.png',
-            },
+            }
         }
+
+Config.Locations = {
+    {
+        ped = {
+            hash = 'u_f_m_miranda_02',
+            name = 'Carmella Rentheart',
+            position = "Escalera Employee",
+            color = "#fd4747",
+            startMSG = 'Hey, how may I help you today?',
+        },
+        coords = vector4(-311.8154, -926.1224, 30.08, 258.08785),
+        spawnpoint = vector4(-317.8297, -931.9272, 30.6569, 250.0985),
+        type = 'vehicle',
+        blip = {
+            label = "Rental",
+            colour = 50,
+            sprite = 56,
+        },
+        vehicles = vehicles,
+    },
+    {
+        ped = {
+            hash = 'u_f_m_miranda_02',
+            name = 'Carmella Rentheart',
+            position = "Escalera Employee",
+            color = "#fd4747",
+            startMSG = 'Hey, how may I help you today?',
+        },
+        coords = vector4(109.2877, -1088.5396, 28.3, 352.5399),
+        spawnpoint = vector4(105.8077, -1063.0851, 28.7839, 245.3517),
+        type = 'vehicle',
+        blip = {
+            label = "Rental",
+            colour = 50,
+            sprite = 56,
+        },
+        vehicles = vehicles,
     },
 }
 
